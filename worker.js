@@ -4,7 +4,7 @@ export default {
     if (request.method === 'OPTIONS') {
       return new Response(null, {
         headers: {
-          'Access-Control-Allow-Origin': env.ALLOWED_ORIGIN,
+          'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
           'Access-Control-Allow-Headers': 'Content-Type',
         }
@@ -16,7 +16,7 @@ export default {
 
     // CORS headers for all responses
     const corsHeaders = {
-      'Access-Control-Allow-Origin': env.ALLOWED_ORIGIN,
+      'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
       'Content-Type': 'application/json',
     };
