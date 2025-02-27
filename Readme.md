@@ -2,6 +2,8 @@
 
 This guide provides step-by-step instructions for implementing Twilio SMS verification in your HeyFlow form using a Cloudflare Worker as a secure middleware.
 
+Loom : https://www.loom.com/share/2607e70777524de9bd5aae51bda54e88
+
 ## Step 1: Cloudflare Worker Setup
 
 1. Log into your Cloudflare dashboard
